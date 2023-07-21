@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.increase{
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+}
+.decrease{
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+}
+.buttons{
+    display: flex;
+    gap: 50px;
+}
+h1{
+    font-size: 5rem;
+    color: blueviolet;
+}
